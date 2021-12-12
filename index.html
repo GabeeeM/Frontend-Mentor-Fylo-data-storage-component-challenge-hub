@@ -3,25 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="container">
+    <div class="boxOne">
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div> <!--/logo-->
+      <div class="buttons">
+        <div class="document">
 
-  You’ve used 815 GB of your storage
+        </div> <!--/document-->
+        <div class="folder">
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
+        </div> <!--/folder-->
+        <div class="upload">
+
+        </div> <!--/upload-->
+      </div> <!--/buttons-->
+    </div> <!--/boxOne-->
+
+    <div class="boxTwo">
+      <div class="used">
+        <p>You’ve used <strong>815 GB</strong> of your storage</p>
+      </div> <!--/used-->
+      <div class="storageThing">
+
+      </div> <!--/storageThing-->
+      <div class="numbers">
+        <p>0 GB</p>
+        <p>1000 GB</p>
+      </div> <!--/numbers-->
+      <div class="remaining">
+        <p>185 GB Left</p>
+      </div> <!--/remaining-->
+    </div> <!--/boxTwo-->
+  </div> <!--/container-->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
